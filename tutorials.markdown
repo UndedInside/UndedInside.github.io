@@ -8,7 +8,7 @@ permalink: /tutorials/
   {% for tutorial in site.tutorials %}
     <li>
       <!---{{ tutorial.title }}--->
-      {{ tutorial.url }}
+      <a href="{{ tutorial.url }}">{{ tutorial.title }}</a>
     </li>
   {% endfor %}
 </ul>
