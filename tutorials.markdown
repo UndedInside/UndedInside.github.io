@@ -16,3 +16,4 @@ permalink: /tutorials/
     {% endfor %}
   {% endfor %}
 </ul>
+<p>Page version: b1.0</p>
