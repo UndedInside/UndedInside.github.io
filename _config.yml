@@ -31,6 +31,9 @@ github_username:  UndedInside
 theme: minima
 plugins:
   - jekyll-feed
+
+collections_dir: my_collections
+
 collections:
   - tutorials
 # Exclude from processing.
