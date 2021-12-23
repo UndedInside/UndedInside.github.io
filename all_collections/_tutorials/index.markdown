@@ -3,4 +3,4 @@ title: Tutorials
 layout: default
 ---
 
-<p>Test!</p>
+Test!
