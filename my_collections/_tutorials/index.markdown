@@ -1,6 +1,7 @@
 ---
 title: Tutorials
 layout: default
+permalink: /tutorials/
 ---
 
-<p>Test!</p>
+# Test!
