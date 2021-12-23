@@ -6,7 +6,7 @@ permalink: /tutorials/
 
 <ul>
   {% for category in site.categories %}
-    { capture cat_name %}{{ category | first }}
+    {% capture cat_name %}{{ category | first }}{% endcapture %}
     <h3>{{ cat_name }}</h3>
     {% for tutorial in site.catagories[cat_name] %}
       <li>
@@ -16,4 +16,4 @@ permalink: /tutorials/
     {% endfor %}
   {% endfor %}
 </ul>
-<p>Page version: b1.0</p>
+<p>Page version: b1.1</p>
