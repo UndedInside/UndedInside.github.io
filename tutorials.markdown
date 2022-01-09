@@ -4,8 +4,8 @@ title: Tutorials
 permalink: /tutorials/
 ---
 
-{{ site.categories }}
+{{ site.categories.binary }}
 
 {{ site.tags }}
 
-<p>Page version: b1.4.4</p>
+<p>Page version: b1.4.5</p>
